@@ -6,6 +6,7 @@ import Home from "./component/Home"
 import Coins from "./component/Coins"
 
 
+
 function App() {
   return (
       <Router>
@@ -14,7 +15,7 @@ function App() {
          <Route path="/" element = {<Home/>} />
          <Route path="/Coins" element = {<Coins/>} />
          <Route path="/Header" element = {<Header/>} />
-         <Route path="/Exchange" element = {<Exchanges/>} />
+         <Route path="/Exchanges" element = {<Exchanges/>} />
          <Route path="/Coin/:id" element = {<CoinDetail/>} />                
         </Routes>
       </Router>  
