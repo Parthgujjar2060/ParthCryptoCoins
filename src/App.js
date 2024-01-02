@@ -7,6 +7,8 @@ import Coins from "./component/Coins"
 
 
 
+
+
 function App() {
   return (
       <Router>
@@ -18,6 +20,7 @@ function App() {
          <Route path="/Exchanges" element = {<Exchanges/>} />
          <Route path="/Coin/:id" element = {<CoinDetail/>} />                
         </Routes>
+ 
       </Router>  
      
   );

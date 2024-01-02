@@ -19,9 +19,7 @@ const Header = () => {
       <Button variant="unstyled">
         <Link to="/CoinDetail">CoinDetail</Link>
       </Button>
-      {/* <Button variant="unstyled">
-        <Link to="/">Home</Link>
-      </Button> */}
+  
     </HStack>
   );
 };
